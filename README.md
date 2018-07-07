@@ -15,13 +15,13 @@ Image Captioning is the process of automatically captioning a unseen image. It u
 
 <img src = "./Images/encoder-decoder.png">
 
-**Encoder**
+**Encoder:** <br>
 We use Convolutional Neural Network(CNN) as our encoder. The image is given to CNN to extract the relavant features. The last hidden state in CNN is connected to Decoder
 The encoder that we provide to you uses the pre-trained ResNet-50 architecture (with the final fully-connected layer removed) to extract features from a batch of pre-processed images. The output is then flattened to a vector, before being passed through a Linear layer to transform the feature vector to have the same size as the word embedding.
 
 <img src = "./Images/encoder.png">
 
-**Decoder**
+**Decoder:** <br>
 We use Recurrent Neural Network(RNN) as our encoder which it takes the features from encoder and procuce a sectence for it. 
 
 <img src = "./Images/decoder.png">
