@@ -13,7 +13,7 @@ Image Captioning is the process of automatically captioning a unseen image. It u
 
 ## Network Topology
 
-![Image Captioning CNN-RNN model](images/encoder-decoder.png)
+<img src = "./Images/encoder-decoder.png">
 
 **Encoder**
 We use Convolutional Neural Network(CNN) as our encoder. The image is given to CNN to extract the relavant features. The last hidden state in CNN is connected to Decoder
@@ -29,6 +29,6 @@ We use Recurrent Neural Network(RNN) as our encoder which it takes the features 
 ## Dataset
 The Microsoft **C**ommon **O**bjects in **CO**ntext (MS COCO) dataset is a large-scale dataset for scene understanding.  The dataset is commonly used to train and benchmark object detection, segmentation, and captioning algorithms.  
 
-<img src = "./Images/examples.jpg">
+<img src = "./Images/coco-examples.jpg">
 
 You can read more about the dataset on the [website](http://cocodataset.org/#home) or in the [research paper](https://arxiv.org/pdf/1405.0312.pdf).
